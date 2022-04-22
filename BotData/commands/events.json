@@ -1,0 +1,1209 @@
+{
+  "command": [
+    {
+      "name": "User Joins Server",
+      "perms": [],
+      "actions": [
+        {
+          "name": "wz4binurzer",
+          "category": "Message",
+          "type": "Send Direct Message",
+          "messageActionRows": [],
+          "user": "${tempVars.newuser.id}",
+          "messagetext": "**Herzlich Willkommen auf dem FinnGaming Community Server!**\n\nHey <@${tempVars.newuser.id}>!\n\nWillkommen auf dem Server. Schau dich gerne mal um. Vorher musst du allerdings unsere Regeln akzeptieren, diese findest du im Regeln Channel. \n\nFalls du auch gerne unseren Minecraft Server besuchen möchtest findest du hier die Infos dazu:\n\nServer Adresse: **fgcraft.de**\nServer Version: 1.8-1.18.2\nIst es kostenlos? A: Ja, du kannst immer kostenlos auf unserem Server spielen.\n\n\nViel Spaß wünscht dir der FGBot, Valapfel und FinnGaming20!",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "surblszursuert",
+          "category": "Message",
+          "type": "Send Message",
+          "messageActionRows": [],
+          "channelname": "🛬┃welcome",
+          "messagetext": "Hey <@${tempVars.newuser.id}>!\nWillkommen auf dem FinnGaming Community Discord Server.",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "asjfgn kuh",
+          "category": "User Action",
+          "type": "Add Role to User",
+          "messageActionRows": [],
+          "user": "${tempVars.newuser.id}",
+          "rolename": "👤 | USER"
+        }
+      ],
+      "var": {
+        "user": "newuser"
+      }
+    },
+    {
+      "name": "Any Message",
+      "perms": [],
+      "actions": [],
+      "var": {}
+    },
+    {
+      "name": "User Kicked",
+      "perms": [],
+      "actions": [],
+      "var": {
+        "user": "kickuser"
+      }
+    },
+    {
+      "name": "User Banned",
+      "perms": [],
+      "actions": [],
+      "var": {
+        "user": "banuser"
+      }
+    },
+    {
+      "name": "Bot Initialization",
+      "perms": [],
+      "actions": [],
+      "var": {}
+    },
+    {
+      "name": "Channel Create",
+      "perms": [],
+      "actions": [],
+      "var": {
+        "channel": "createdchannel"
+      }
+    },
+    {
+      "name": "Channel Delete",
+      "perms": [],
+      "actions": [],
+      "var": {
+        "channel": "deletedchannel"
+      }
+    },
+    {
+      "name": "Channel Pins Update",
+      "perms": [],
+      "actions": [],
+      "var": {
+        "channel": "updatepinschannel"
+      }
+    },
+    {
+      "name": "Channel Update",
+      "perms": [],
+      "actions": [],
+      "var": {
+        "channel": "updatechannel"
+      }
+    },
+    {
+      "name": "Emoji Create",
+      "perms": [],
+      "actions": [],
+      "var": {
+        "channel": "createdemoji"
+      }
+    },
+    {
+      "name": "Emoji Delete",
+      "perms": [],
+      "actions": [],
+      "var": {
+        "channel": "deletedemoji"
+      }
+    },
+    {
+      "name": "Emoji Update",
+      "perms": [],
+      "actions": [],
+      "var": {
+        "channel": "updatedemoji"
+      }
+    },
+    {
+      "name": "Guild Ban Remove",
+      "perms": [],
+      "actions": [],
+      "var": {
+        "channel": ""
+      }
+    },
+    {
+      "name": "Guild Create",
+      "perms": [],
+      "actions": [],
+      "var": {
+        "channel": ""
+      }
+    },
+    {
+      "name": "Guild Delete",
+      "perms": [],
+      "actions": [],
+      "var": {
+        "channel": ""
+      }
+    },
+    {
+      "name": "Guild Member Available",
+      "perms": [],
+      "actions": [],
+      "var": {
+        "channel": ""
+      }
+    },
+    {
+      "name": "Guild Member Speaking",
+      "perms": [],
+      "actions": [],
+      "var": {
+        "channel": ""
+      }
+    },
+    {
+      "name": "Guild Member Update",
+      "perms": [],
+      "actions": [],
+      "var": {
+        "channel": ""
+      }
+    },
+    {
+      "name": "Guild Unavailable",
+      "perms": [],
+      "actions": [],
+      "var": {
+        "channel": ""
+      }
+    },
+    {
+      "name": "Guild Update",
+      "perms": [],
+      "actions": [],
+      "var": {
+        "channel": ""
+      }
+    },
+    {
+      "name": "Message Delete",
+      "perms": [],
+      "actions": [],
+      "var": {
+        "channel": ""
+      }
+    },
+    {
+      "name": "Message Update",
+      "perms": [],
+      "actions": [],
+      "var": {
+        "channel": ""
+      }
+    },
+    {
+      "name": "Role Create",
+      "perms": [],
+      "actions": [],
+      "var": {
+        "channel": ""
+      }
+    },
+    {
+      "name": "Role Delete",
+      "perms": [],
+      "actions": [],
+      "var": {
+        "channel": ""
+      }
+    },
+    {
+      "name": "Role Update",
+      "perms": [],
+      "actions": [],
+      "var": {
+        "channel": ""
+      }
+    },
+    {
+      "name": "Typing Start",
+      "perms": [],
+      "actions": [],
+      "var": {
+        "channel": ""
+      }
+    },
+    {
+      "name": "User Update",
+      "perms": [],
+      "actions": [],
+      "var": {
+        "channel": ""
+      }
+    },
+    {
+      "name": "Button Interaction",
+      "perms": [],
+      "actions": [
+        {
+          "name": "ajrgag",
+          "category": "Control",
+          "type": "Switch Case",
+          "valueActions": {
+            "1_restart": [
+              {
+                "name": "bakjdfgha b.gjdfhgsdf",
+                "category": "Message",
+                "type": "Send Embed",
+                "messageActionRows": [],
+                "channelname": "🎄┃updates",
+                "color": "FFF703",
+                "title": "Server Restart",
+                "url": "",
+                "authorname": "",
+                "authorimageurl": "",
+                "authorlink": "",
+                "description": "Der Server wurde gerade neugestartet. Es kann ein bisschen dauern, bis ihr wieder spielen könnt!\n\nVielen Dank für euer Verständnis\n\nDer FGBot",
+                "thumbnail": "",
+                "image": "",
+                "footer": "",
+                "timestamp": "false",
+                "savetovariable": "jHDFLJASDF",
+                "savetovariabletype": "temp"
+              }
+            ],
+            "1_online": [
+              {
+                "name": "bakjdfgha b.gjdfhgsdf_1",
+                "category": "Message",
+                "type": "Send Embed",
+                "messageActionRows": [],
+                "channelname": "🎄┃updates",
+                "color": "2BFF00",
+                "title": "Server wieder online",
+                "url": "",
+                "authorname": "",
+                "authorimageurl": "",
+                "authorlink": "",
+                "description": "Der Server ist nun wieder verfügbar. Viel Spaß wünscht euch der FGBot.",
+                "thumbnail": "",
+                "image": "",
+                "footer": "",
+                "timestamp": "false",
+                "savetovariable": "4c3ir",
+                "savetovariabletype": "temp"
+              }
+            ],
+            "1_werbung": [
+              {
+                "name": "bakjdfgha b.gjdfhgsdf_2",
+                "category": "Message",
+                "type": "Send Embed",
+                "messageActionRows": [],
+                "channelname": "📱┃werbung",
+                "color": "FF0000",
+                "title": "FGCraft.de - Dein CityBuild Server Netzwerk",
+                "url": "",
+                "authorname": "",
+                "authorimageurl": "",
+                "authorlink": "",
+                "description": "Schaut doch mal auf unserem Minecraft Citybuild **FGCraft.de** vorbei!\n\nIP: **FGCraft.de**\nVersion: **1.8 - 1.18.2**\nKostet es was auf dem Server zu spielen?\n**Nein, es ist kostenlos.**",
+                "thumbnail": "",
+                "image": "",
+                "footer": "",
+                "timestamp": "false",
+                "savetovariable": "1rwopqtvjqoi34tuihw",
+                "savetovariabletype": "temp"
+              }
+            ],
+            "1_wartungsarbeiten": [
+              {
+                "name": "bakjdfgha b.gjdfhgsdf_1_1",
+                "category": "Message",
+                "type": "Send Embed",
+                "messageActionRows": [],
+                "channelname": "🎄┃updates",
+                "color": "FF660D",
+                "title": "Wartungsarbeiten",
+                "url": "",
+                "authorname": "",
+                "authorimageurl": "",
+                "authorlink": "",
+                "description": "Der Server ist nun in Wartungen.",
+                "thumbnail": "",
+                "image": "",
+                "footer": "",
+                "timestamp": "false",
+                "savetovariable": "23rjqotunsheriughseritshriuhsrgnvuserhesrnugs",
+                "savetovariabletype": "temp"
+              }
+            ]
+          },
+          "messageActionRows": [],
+          "varname": "${tempVars.buttoninteraction.customId}"
+        },
+        {
+          "name": "ajerhgkjsdfbgsjfdg",
+          "category": "Interaction",
+          "type": "Reply To Interaction With Message",
+          "messageActionRows": [],
+          "interactionobject": "${tempVars.buttoninteraction}",
+          "messagetext": "Aktion ausgeführt"
+        },
+        {
+          "name": "dakcerghivuergshuvruig",
+          "category": "Control",
+          "type": "Switch Case",
+          "valueActions": {
+            "streamstarten": [
+              {
+                "name": "dfjbhjdkfgsdfgksjdfjgs",
+                "category": "Message",
+                "type": "Send Embed",
+                "messageActionRows": [],
+                "channelname": "❗┃stream",
+                "color": "CE0AFF",
+                "title": "Der Stream hat begonnen!",
+                "url": "",
+                "authorname": "",
+                "authorimageurl": "",
+                "authorlink": "",
+                "description": "Hey @everyone\n\nDer FinnGaming Stream hat begonnen! Zieht ihn euch gerne rein und lasst ein Follow da!\n\n-> Link: https://finngaming.eu/twitch\n\nViel Spaß wünscht euch\n\nDer FGBot und FinnGaming :D",
+                "thumbnail": "",
+                "image": "",
+                "footer": "",
+                "timestamp": "false",
+                "savetovariable": "quo34tzq9734rj kqoü,3rmnqb349g7tzq",
+                "savetovariabletype": "temp"
+              }
+            ],
+            "streamabsagen": [
+              {
+                "name": "dfjbhjdkfgsdfgksjdfjgs_1",
+                "category": "Message",
+                "type": "Send Embed",
+                "messageActionRows": [],
+                "channelname": "❗┃stream",
+                "color": "FF0000",
+                "title": "Der Stream wurde abgesagt!",
+                "url": "",
+                "authorname": "",
+                "authorimageurl": "",
+                "authorlink": "",
+                "description": "Der heutige Stream wurde leider von ${tempVars.buttoninteraction.member.displayName} abgesagt! Freut euch doch auf den nächsten Stream und euch noch einen schönen Abend/Tag!\n\nDer FGBot",
+                "thumbnail": "",
+                "image": "",
+                "footer": "",
+                "timestamp": "false",
+                "savetovariable": "",
+                "savetovariabletype": "temp"
+              }
+            ]
+          },
+          "messageActionRows": [],
+          "varname": "${tempVars.buttoninteraction.customId}"
+        },
+        {
+          "name": "qo iwtv1",
+          "category": "Control",
+          "type": "Switch Case",
+          "valueActions": {
+            "jabw": [
+              {
+                "name": "qh3votu4_1",
+                "category": "Message",
+                "type": "Send Embed",
+                "messageActionRows": [],
+                "channelname": "${tempVars.buttoninteraction.channelId}",
+                "color": "22FF00",
+                "title": "",
+                "url": "",
+                "authorname": "",
+                "authorimageurl": "",
+                "authorlink": "",
+                "description": "Okay, deine Bewerbung wurde abgeschickt! Viel Glück",
+                "thumbnail": "",
+                "image": "",
+                "footer": "",
+                "timestamp": "false",
+                "savetovariable": "bwyes",
+                "savetovariabletype": "temp"
+              },
+              {
+                "name": "234tunaobert",
+                "category": "Message",
+                "type": "Send Direct Message",
+                "messageActionRows": [],
+                "user": "${tempVars.buttoninteraction.member.id}",
+                "messagetext": "\nHallo und vielen Dank für deine Bewerbung.\nFalls deine Bewerbung nicht korrekt sein sollte, nutze den Befehl .storno (Tagge dich)\nund deine Bewerbung wird storniert und du kannst sie erneut verfassen.\n\nViel Glück",
+                "savetovariable": "",
+                "savetovariabletype": "temp"
+              }
+            ]
+          },
+          "messageActionRows": [],
+          "varname": "${tempVars.buttoninteraction.customId}"
+        },
+        {
+          "name": "dakcerghivuergshuvruig_1",
+          "category": "Control",
+          "type": "Switch Case",
+          "valueActions": {
+            "schließen": [
+              {
+                "name": "uebate",
+                "category": "Message",
+                "type": "Send Embed",
+                "messageActionRows": [
+                  {
+                    "rowtype": "button",
+                    "buttons": [
+                      {
+                        "label": "Bestätigen",
+                        "customid": "be1",
+                        "style": "SUCCESS",
+                        "emoji": "",
+                        "URL": ""
+                      }
+                    ]
+                  }
+                ],
+                "channelname": "${tempVars.tckallgemein.id}",
+                "color": "FF0000",
+                "title": "",
+                "url": "",
+                "authorname": "",
+                "authorimageurl": "",
+                "authorlink": "",
+                "description": "Der Channel soll gelöscht werden. Bitte bestätige diese Aktion.",
+                "thumbnail": "",
+                "image": "",
+                "footer": "",
+                "timestamp": "false",
+                "savetovariable": "",
+                "savetovariabletype": "temp"
+              }
+            ]
+          },
+          "messageActionRows": [],
+          "varname": "${tempVars.buttoninteraction.customId}"
+        },
+        {
+          "name": "wz4bt79q",
+          "category": "Control",
+          "type": "Switch Case",
+          "valueActions": {
+            "tallgemein": [
+              {
+                "name": "w79vz",
+                "category": "Channel Action",
+                "type": "Create Channel",
+                "messageActionRows": [],
+                "channelname": "allg_${tempVars.buttoninteraction.member.displayName}",
+                "chancategory": "",
+                "reason": "Dies ist ein Ticket von ${tempVars.buttoninteraction.member.displayName}. Thema: Allgemein",
+                "channeltype": "Text",
+                "savetovariable": "tckallgemein",
+                "savetovariabletype": "temp"
+              },
+              {
+                "name": "8h",
+                "category": "Control",
+                "type": "Wait",
+                "messageActionRows": [],
+                "waitduration": "1",
+                "unit": "seconds"
+              },
+              {
+                "name": "qvu3n9tqe",
+                "category": "Channel Action",
+                "type": "Update Channel Permissions",
+                "messageActionRows": [],
+                "channelname": "${tempVars.tckallgemein.id}",
+                "permid": "${dbsVars.guild.id}",
+                "permissions": [
+                  "VIEW_CHANNEL",
+                  "SEND_MESSAGES"
+                ],
+                "allow": "Deny"
+              },
+              {
+                "name": "qvu3n9tqe_1",
+                "category": "Channel Action",
+                "type": "Update Channel Permissions",
+                "messageActionRows": [],
+                "channelname": "${tempVars.tckallgemein.id}",
+                "permid": "${tempVars.buttoninteraction.member.id}",
+                "permissions": [
+                  "VIEW_CHANNEL",
+                  "SEND_MESSAGES"
+                ],
+                "allow": "Allow"
+              },
+              {
+                "name": "v2u5boz",
+                "category": "Message",
+                "type": "Send Embed",
+                "messageActionRows": [
+                  {
+                    "rowtype": "button",
+                    "buttons": [
+                      {
+                        "label": "Ticket schließen",
+                        "customid": "schließen",
+                        "style": "DANGER",
+                        "emoji": "",
+                        "URL": ""
+                      }
+                    ]
+                  }
+                ],
+                "channelname": "${tempVars.tckallgemein.id}",
+                "color": "FF0000",
+                "title": "Ticket von ${tempVars.buttoninteraction.user.tag}",
+                "url": "",
+                "authorname": "",
+                "authorimageurl": "",
+                "authorlink": "",
+                "description": "Grund: **Allgemein**",
+                "thumbnail": "",
+                "image": "",
+                "footer": "",
+                "timestamp": "false",
+                "savetovariable": "",
+                "savetovariabletype": "temp"
+              }
+            ],
+            "tfehler": [
+              {
+                "name": "w79vz_1",
+                "category": "Channel Action",
+                "type": "Create Channel",
+                "messageActionRows": [],
+                "channelname": "tech_${tempVars.buttoninteraction.member.displayName}",
+                "chancategory": "",
+                "reason": "Dies ist ein Ticket von ${tempVars.buttoninteraction.member.displayName}. Thema: Technischer Fehler/Bug",
+                "channeltype": "Text",
+                "savetovariable": "ttfehler",
+                "savetovariabletype": "temp"
+              },
+              {
+                "name": "8h_1",
+                "category": "Control",
+                "type": "Wait",
+                "messageActionRows": [],
+                "waitduration": "1",
+                "unit": "seconds"
+              },
+              {
+                "name": "qvu3n9tqe_2",
+                "category": "Channel Action",
+                "type": "Update Channel Permissions",
+                "messageActionRows": [],
+                "channelname": "${tempVars.ttfehler.id}",
+                "permid": "${dbsVars.guild.id}",
+                "permissions": [
+                  "VIEW_CHANNEL",
+                  "SEND_MESSAGES"
+                ],
+                "allow": "Deny"
+              },
+              {
+                "name": "qvu3n9tqe_1_1",
+                "category": "Channel Action",
+                "type": "Update Channel Permissions",
+                "messageActionRows": [],
+                "channelname": "${tempVars.ttfehler.id}",
+                "permid": "${tempVars.buttoninteraction.member.id}",
+                "permissions": [
+                  "VIEW_CHANNEL",
+                  "SEND_MESSAGES"
+                ],
+                "allow": "Allow"
+              },
+              {
+                "name": "v2u5boz_1",
+                "category": "Message",
+                "type": "Send Embed",
+                "messageActionRows": [
+                  {
+                    "rowtype": "button",
+                    "buttons": [
+                      {
+                        "label": "Ticket schließen",
+                        "customid": "1tschließen",
+                        "style": "DANGER",
+                        "emoji": "",
+                        "URL": ""
+                      }
+                    ]
+                  }
+                ],
+                "channelname": "${tempVars.ttfehler.id}",
+                "color": "FF0000",
+                "title": "Ticket von ${tempVars.buttoninteraction.user.tag}",
+                "url": "",
+                "authorname": "",
+                "authorimageurl": "",
+                "authorlink": "",
+                "description": "Grund: **Technisches Problem/Bug**",
+                "thumbnail": "",
+                "image": "",
+                "footer": "",
+                "timestamp": "false",
+                "savetovariable": "",
+                "savetovariabletype": "temp"
+              }
+            ],
+            "tminecraft": [
+              {
+                "name": "w79vz_1_1",
+                "category": "Channel Action",
+                "type": "Create Channel",
+                "messageActionRows": [],
+                "channelname": "mc_${tempVars.buttoninteraction.member.displayName}",
+                "chancategory": "",
+                "reason": "Dies ist ein Ticket von ${tempVars.buttoninteraction.member.displayName}. Thema: Minecraft",
+                "channeltype": "Text",
+                "savetovariable": "mine",
+                "savetovariabletype": "temp"
+              },
+              {
+                "name": "8h_1_1",
+                "category": "Control",
+                "type": "Wait",
+                "messageActionRows": [],
+                "waitduration": "1",
+                "unit": "seconds"
+              },
+              {
+                "name": "qvu3n9tqe_2_1",
+                "category": "Channel Action",
+                "type": "Update Channel Permissions",
+                "messageActionRows": [],
+                "channelname": "${tempVars.mine.id}",
+                "permid": "${dbsVars.guild.id}",
+                "permissions": [
+                  "VIEW_CHANNEL",
+                  "SEND_MESSAGES"
+                ],
+                "allow": "Deny"
+              },
+              {
+                "name": "qvu3n9tqe_1_1_1",
+                "category": "Channel Action",
+                "type": "Update Channel Permissions",
+                "messageActionRows": [],
+                "channelname": "${tempVars.mine.id}",
+                "permid": "${tempVars.buttoninteraction.member.id}",
+                "permissions": [
+                  "VIEW_CHANNEL",
+                  "SEND_MESSAGES"
+                ],
+                "allow": "Allow"
+              },
+              {
+                "name": "v2u5boz_1_1",
+                "category": "Message",
+                "type": "Send Embed",
+                "messageActionRows": [
+                  {
+                    "rowtype": "button",
+                    "buttons": [
+                      {
+                        "label": "Ticket schließen",
+                        "customid": "mineclose",
+                        "style": "DANGER",
+                        "emoji": "",
+                        "URL": ""
+                      }
+                    ]
+                  }
+                ],
+                "channelname": "${tempVars.mine.id}",
+                "color": "FF0000",
+                "title": "Ticket von ${tempVars.buttoninteraction.user.tag}",
+                "url": "",
+                "authorname": "",
+                "authorimageurl": "",
+                "authorlink": "",
+                "description": "Grund: **Minecraft Problem**",
+                "thumbnail": "",
+                "image": "",
+                "footer": "",
+                "timestamp": "false",
+                "savetovariable": "",
+                "savetovariabletype": "temp"
+              }
+            ],
+            "tdiscord": [
+              {
+                "name": "w79vz_1_1_1",
+                "category": "Channel Action",
+                "type": "Create Channel",
+                "messageActionRows": [],
+                "channelname": "dc_${tempVars.buttoninteraction.member.displayName}",
+                "chancategory": "",
+                "reason": "Dies ist ein Ticket von ${tempVars.buttoninteraction.member.displayName}. Thema: Discord",
+                "channeltype": "Text",
+                "savetovariable": "disscord",
+                "savetovariabletype": "temp"
+              },
+              {
+                "name": "8h_1_1_1",
+                "category": "Control",
+                "type": "Wait",
+                "messageActionRows": [],
+                "waitduration": "1",
+                "unit": "seconds"
+              },
+              {
+                "name": "qvu3n9tqe_2_1_1",
+                "category": "Channel Action",
+                "type": "Update Channel Permissions",
+                "messageActionRows": [],
+                "channelname": "${tempVars.disscord.id}",
+                "permid": "${dbsVars.guild.id}",
+                "permissions": [
+                  "VIEW_CHANNEL",
+                  "SEND_MESSAGES"
+                ],
+                "allow": "Deny"
+              },
+              {
+                "name": "qvu3n9tqe_1_1_1_1",
+                "category": "Channel Action",
+                "type": "Update Channel Permissions",
+                "messageActionRows": [],
+                "channelname": "${tempVars.disscord.id}",
+                "permid": "${tempVars.buttoninteraction.member.id}",
+                "permissions": [
+                  "VIEW_CHANNEL",
+                  "SEND_MESSAGES"
+                ],
+                "allow": "Allow"
+              },
+              {
+                "name": "v2u5boz_1_1_1",
+                "category": "Message",
+                "type": "Send Embed",
+                "messageActionRows": [
+                  {
+                    "rowtype": "button",
+                    "buttons": [
+                      {
+                        "label": "Ticket schließen",
+                        "customid": "dissschl",
+                        "style": "DANGER",
+                        "emoji": "",
+                        "URL": ""
+                      }
+                    ]
+                  }
+                ],
+                "channelname": "${tempVars.disscord.id}",
+                "color": "FF0000",
+                "title": "Ticket von ${tempVars.buttoninteraction.user.tag}",
+                "url": "",
+                "authorname": "",
+                "authorimageurl": "",
+                "authorlink": "",
+                "description": "Grund: **Discord Problem**",
+                "thumbnail": "",
+                "image": "",
+                "footer": "",
+                "timestamp": "false",
+                "savetovariable": "",
+                "savetovariabletype": "temp"
+              }
+            ]
+          },
+          "messageActionRows": [],
+          "varname": "${tempVars.buttoninteraction.customId}"
+        },
+        {
+          "name": "2fiug4kltj2r",
+          "category": "Control",
+          "type": "Switch Case",
+          "valueActions": {
+            "be1": [
+              {
+                "name": "uebate_2",
+                "category": "Message",
+                "type": "Send Embed",
+                "messageActionRows": [],
+                "channelname": "${tempVars.tckallgemein.id}",
+                "color": "FF0000",
+                "title": "",
+                "url": "",
+                "authorname": "",
+                "authorimageurl": "",
+                "authorlink": "",
+                "description": "Okay.",
+                "thumbnail": "",
+                "image": "",
+                "footer": "",
+                "timestamp": "false",
+                "savetovariable": "",
+                "savetovariabletype": "temp"
+              },
+              {
+                "name": "qv9zn3bpt_1",
+                "category": "Channel Action",
+                "type": "Delete Channel",
+                "messageActionRows": [],
+                "channelname": "${tempVars.tckallgemein.id}",
+                "reason": "Der Channel wurde vom Team geschlossen"
+              }
+            ]
+          },
+          "messageActionRows": [],
+          "varname": "${tempVars.buttoninteraction.customId}"
+        },
+        {
+          "name": "dakcerghivuergshuvruig_1_1",
+          "category": "Control",
+          "type": "Switch Case",
+          "valueActions": {
+            "1tschließen": [
+              {
+                "name": "uebate_3",
+                "category": "Message",
+                "type": "Send Embed",
+                "messageActionRows": [
+                  {
+                    "rowtype": "button",
+                    "buttons": [
+                      {
+                        "label": "Bestätigen",
+                        "customid": "best",
+                        "style": "SUCCESS",
+                        "emoji": "",
+                        "URL": ""
+                      }
+                    ]
+                  }
+                ],
+                "channelname": "${tempVars.buttoninteraction.channelId}",
+                "color": "FF0000",
+                "title": "",
+                "url": "",
+                "authorname": "",
+                "authorimageurl": "",
+                "authorlink": "",
+                "description": "Der Channel soll gelöscht werden. Bitte bestätige diese Aktion.",
+                "thumbnail": "",
+                "image": "",
+                "footer": "",
+                "timestamp": "false",
+                "savetovariable": "",
+                "savetovariabletype": "temp"
+              }
+            ]
+          },
+          "messageActionRows": [],
+          "varname": "${tempVars.buttoninteraction.customId}"
+        },
+        {
+          "name": "2fiug4kltj2r_1",
+          "category": "Control",
+          "type": "Switch Case",
+          "valueActions": {
+            "best": [
+              {
+                "name": "uebate_2_1",
+                "category": "Message",
+                "type": "Send Embed",
+                "messageActionRows": [],
+                "channelname": "${tempVars.buttoninteraction.channelId}",
+                "color": "FF0000",
+                "title": "",
+                "url": "",
+                "authorname": "",
+                "authorimageurl": "",
+                "authorlink": "",
+                "description": "Okay.",
+                "thumbnail": "",
+                "image": "",
+                "footer": "",
+                "timestamp": "false",
+                "savetovariable": "",
+                "savetovariabletype": "temp"
+              },
+              {
+                "name": "qv9zn3bpt_1_1",
+                "category": "Channel Action",
+                "type": "Delete Channel",
+                "messageActionRows": [],
+                "channelname": "${tempVars.buttoninteraction.channelId}",
+                "reason": "Der Channel wurde vom Team geschlossen"
+              }
+            ]
+          },
+          "messageActionRows": [],
+          "varname": "${tempVars.buttoninteraction.customId}"
+        },
+        {
+          "name": "dakcerghivuergshuvruig_1_1_1",
+          "category": "Control",
+          "type": "Switch Case",
+          "valueActions": {
+            "mineclose": [
+              {
+                "name": "uebate_3_1",
+                "category": "Message",
+                "type": "Send Embed",
+                "messageActionRows": [
+                  {
+                    "rowtype": "button",
+                    "buttons": [
+                      {
+                        "label": "Bestätigen",
+                        "customid": "minebest",
+                        "style": "SUCCESS",
+                        "emoji": "",
+                        "URL": ""
+                      }
+                    ]
+                  }
+                ],
+                "channelname": "${tempVars.buttoninteraction.channelId}",
+                "color": "FF0000",
+                "title": "",
+                "url": "",
+                "authorname": "",
+                "authorimageurl": "",
+                "authorlink": "",
+                "description": "Der Channel soll gelöscht werden. Bitte bestätige diese Aktion.",
+                "thumbnail": "",
+                "image": "",
+                "footer": "",
+                "timestamp": "false",
+                "savetovariable": "",
+                "savetovariabletype": "temp"
+              }
+            ]
+          },
+          "messageActionRows": [],
+          "varname": "${tempVars.buttoninteraction.customId}"
+        },
+        {
+          "name": "2fiug4kltj2r_1_1",
+          "category": "Control",
+          "type": "Switch Case",
+          "valueActions": {
+            "minebest": [
+              {
+                "name": "uebate_2_1_1",
+                "category": "Message",
+                "type": "Send Embed",
+                "messageActionRows": [],
+                "channelname": "${tempVars.buttoninteraction.channelId}",
+                "color": "FF0000",
+                "title": "",
+                "url": "",
+                "authorname": "",
+                "authorimageurl": "",
+                "authorlink": "",
+                "description": "Okay.",
+                "thumbnail": "",
+                "image": "",
+                "footer": "",
+                "timestamp": "false",
+                "savetovariable": "",
+                "savetovariabletype": "temp"
+              },
+              {
+                "name": "qv9zn3bpt_1_1_1",
+                "category": "Channel Action",
+                "type": "Delete Channel",
+                "messageActionRows": [],
+                "channelname": "${tempVars.buttoninteraction.channelId}",
+                "reason": "Der Channel wurde vom Team geschlossen"
+              }
+            ]
+          },
+          "messageActionRows": [],
+          "varname": "${tempVars.buttoninteraction.customId}"
+        },
+        {
+          "name": "dakcerghivuergshuvruig_1_1_1_1",
+          "category": "Control",
+          "type": "Switch Case",
+          "valueActions": {
+            "dissschl": [
+              {
+                "name": "uebate_3_1_1",
+                "category": "Message",
+                "type": "Send Embed",
+                "messageActionRows": [
+                  {
+                    "rowtype": "button",
+                    "buttons": [
+                      {
+                        "label": "Bestätigen",
+                        "customid": "dissbl",
+                        "style": "SUCCESS",
+                        "emoji": "",
+                        "URL": ""
+                      }
+                    ]
+                  }
+                ],
+                "channelname": "${tempVars.buttoninteraction.channelId}",
+                "color": "FF0000",
+                "title": "",
+                "url": "",
+                "authorname": "",
+                "authorimageurl": "",
+                "authorlink": "",
+                "description": "Der Channel soll gelöscht werden. Bitte bestätige diese Aktion.",
+                "thumbnail": "",
+                "image": "",
+                "footer": "",
+                "timestamp": "false",
+                "savetovariable": "",
+                "savetovariabletype": "temp"
+              }
+            ]
+          },
+          "messageActionRows": [],
+          "varname": "${tempVars.buttoninteraction.customId}"
+        },
+        {
+          "name": "2fiug4kltj2r_1_1_1",
+          "category": "Control",
+          "type": "Switch Case",
+          "valueActions": {
+            "dissbl": [
+              {
+                "name": "uebate_2_1_1_1",
+                "category": "Message",
+                "type": "Send Embed",
+                "messageActionRows": [],
+                "channelname": "${tempVars.buttoninteraction.channelId}",
+                "color": "FF0000",
+                "title": "",
+                "url": "",
+                "authorname": "",
+                "authorimageurl": "",
+                "authorlink": "",
+                "description": "Okay.",
+                "thumbnail": "",
+                "image": "",
+                "footer": "",
+                "timestamp": "false",
+                "savetovariable": "",
+                "savetovariabletype": "temp"
+              },
+              {
+                "name": "qv9zn3bpt_1_1_1_1",
+                "category": "Channel Action",
+                "type": "Delete Channel",
+                "messageActionRows": [],
+                "channelname": "${tempVars.buttoninteraction.channelId}",
+                "reason": "Der Channel wurde vom Team geschlossen"
+              }
+            ]
+          },
+          "messageActionRows": [],
+          "varname": "${tempVars.buttoninteraction.customId}"
+        },
+        {
+          "name": "nintendo switch case haha",
+          "category": "Control",
+          "type": "Switch Case",
+          "valueActions": {
+            "RULES1": [
+              {
+                "name": "si uerhserg blsdrhg_1",
+                "category": "User Action",
+                "type": "Add Role to User",
+                "messageActionRows": [],
+                "user": "${tempVars.buttoninteraction.member.id}",
+                "rolename": "✅ | VERIFIZIERT - DE"
+              }
+            ],
+            "RULES2": [
+              {
+                "name": "si uerhserg blsdrhg",
+                "category": "User Action",
+                "type": "Add Role to User",
+                "messageActionRows": [],
+                "user": "${tempVars.buttoninteraction.member.id}",
+                "rolename": "Muted"
+              },
+              {
+                "name": "iundbhjf",
+                "category": "User Action",
+                "type": "Remove Role From User",
+                "messageActionRows": [],
+                "user": "${tempVars.buttoninteraction.member.id}",
+                "rolename": "✅ | VERIFIZIERT - DE",
+                "reason": "Du hast die Reh geln (haha) nicht akzeptiert"
+              },
+              {
+                "name": "sjkevhtwebr",
+                "category": "Message",
+                "type": "Send Embed",
+                "messageActionRows": [],
+                "channelname": "🎮┃log",
+                "color": "FF0D0D",
+                "title": "",
+                "url": "",
+                "authorname": "",
+                "authorimageurl": "",
+                "authorlink": "",
+                "description": "Der kleine ${tempVars.buttoninteraction.member.displayName} wollte die Regeln nicht akzeptieren und ist NUN IM MUTE MUHAHAHAHHAHAHAAH\n\nDu kleine tussi finn",
+                "thumbnail": "",
+                "image": "",
+                "footer": "",
+                "timestamp": "false",
+                "savetovariable": "",
+                "savetovariabletype": "temp"
+              }
+            ]
+          },
+          "messageActionRows": [],
+          "varname": "${tempVars.buttoninteraction.customId}"
+        },
+        {
+          "name": "qcut",
+          "category": "Channel Action",
+          "type": "Delete All Messages",
+          "messageActionRows": [],
+          "channelname": "🥝┃tcommands",
+          "msgcount": "1"
+        }
+      ],
+      "var": {
+        "channel": ""
+      }
+    },
+    {
+      "name": "Select Interaction",
+      "perms": [],
+      "actions": [
+        {
+          "name": "ajerhgkjsdfbgsjfdg_1",
+          "category": "Interaction",
+          "type": "Reply To Interaction With Message",
+          "messageActionRows": [],
+          "interactionobject": "${tempVars.selectinteraction}",
+          "messagetext": "Aktion ausgeführt"
+        }
+      ],
+      "var": {
+        "channel": ""
+      }
+    },
+    {
+      "name": "Command Interaction",
+      "perms": [],
+      "actions": [],
+      "var": {
+        "channel": ""
+      }
+    }
+  ]
+}

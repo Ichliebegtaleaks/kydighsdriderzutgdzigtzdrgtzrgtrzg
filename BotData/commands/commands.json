@@ -1,0 +1,1254 @@
+{
+  "command": [
+    {
+      "name": "help",
+      "perms": [
+        "rechte"
+      ],
+      "actions": [
+        {
+          "name": "luldu_2_1_1",
+          "category": "Channel Action",
+          "type": "Delete All Messages",
+          "messageActionRows": [],
+          "channelname": "🥝┃tcommands",
+          "msgcount": "1"
+        },
+        {
+          "name": "help menu",
+          "category": "Message",
+          "type": "Send Embed",
+          "fields": [
+            {
+              "name": ".i (Nachricht)",
+              "value": "Schreibt eine wichtige Nachricht in die Infos.",
+              "inline": "false"
+            },
+            {
+              "name": ".gw (Preis)",
+              "value": "Erstellt ein Giveaway. Nutze danach .gwdate (Datum, wie 01/01/2022) nutze dann .gwstart um das Giveaway zu starten.",
+              "inline": "false"
+            },
+            {
+              "name": ".link (link)",
+              "value": "Sendet deinen Link eingebettet in den Chat.",
+              "inline": "false"
+            },
+            {
+              "name": ".del",
+              "value": "Löscht 100 Nachrichten aus dem Channel in den die Nachricht gesendet wird.",
+              "inline": "false"
+            }
+          ],
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "FF0000",
+          "title": "Server Controller",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Der Server kann über diesen Channel kontrolliert werden!",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "server",
+      "perms": [
+        "rechte"
+      ],
+      "actions": [
+        {
+          "name": "luldu_1",
+          "category": "Channel Action",
+          "type": "Delete All Messages",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "msgcount": "1"
+        },
+        {
+          "name": "server1",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [
+            {
+              "rowtype": "button",
+              "buttons": [
+                {
+                  "label": "Server Restart ankündigen",
+                  "customid": "1_restart",
+                  "style": "DANGER",
+                  "emoji": "",
+                  "URL": ""
+                },
+                {
+                  "label": "In Wartungsarbeiten setzen",
+                  "customid": "1_wartungsarbeiten",
+                  "style": "DANGER",
+                  "emoji": "",
+                  "URL": ""
+                },
+                {
+                  "label": "Server als online erklären",
+                  "customid": "1_online",
+                  "style": "SUCCESS",
+                  "emoji": "",
+                  "URL": ""
+                },
+                {
+                  "label": "Werbung für Server machen",
+                  "customid": "1_werbung",
+                  "style": "SUCCESS",
+                  "emoji": "",
+                  "URL": ""
+                }
+              ]
+            }
+          ],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "FFFFFF",
+          "title": "Server Controll Panel",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Bitte wähle die Aktion aus.",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "1",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "stream",
+      "perms": [
+        "rechte"
+      ],
+      "actions": [
+        {
+          "name": "luldu_1_1",
+          "category": "Channel Action",
+          "type": "Delete All Messages",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "msgcount": "1"
+        },
+        {
+          "name": "hgWFEZVWER",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [
+            {
+              "rowtype": "button",
+              "buttons": [
+                {
+                  "label": "Stream starten",
+                  "customid": "streamstarten",
+                  "style": "SUCCESS",
+                  "emoji": "",
+                  "URL": ""
+                },
+                {
+                  "label": "Stream absagen",
+                  "customid": "streamabsagen",
+                  "style": "DANGER",
+                  "emoji": "",
+                  "URL": ""
+                }
+              ]
+            }
+          ],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "FF0000",
+          "title": "Stream Controll Panel",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Hier kann der Stream kontrolliert werden.",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "watzineruiergserijgsuierguisern8g9snrgnwuern8gusn8rugnvshrenghuidsrngi",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "i",
+      "perms": [
+        "rechte"
+      ],
+      "actions": [
+        {
+          "name": "luldu_1_1_1",
+          "category": "Channel Action",
+          "type": "Delete All Messages",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "msgcount": "1"
+        },
+        {
+          "name": "jhwvertiunwhtnuerhsuerghsvrg",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "messageActionRows": [],
+          "varname": "infos_message",
+          "vartype": "Text",
+          "savevartype": "temp",
+          "param": "0"
+        },
+        {
+          "name": "ze9t7nguvsergseruighserngsuerglae4",
+          "category": "Message",
+          "type": "Send Message",
+          "messageActionRows": [],
+          "channelname": "📌┃infos",
+          "messagetext": "Hey @everyone\n\n${tempVars.infos_message}\n\nMit freundlichen Grüßen\n\n<@${dbsVars.CommandAuthor.id}>",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "gw",
+      "perms": [
+        "rechte"
+      ],
+      "actions": [
+        {
+          "name": "luldu_2_2",
+          "category": "Channel Action",
+          "type": "Delete All Messages",
+          "messageActionRows": [],
+          "channelname": "🥝┃tcommands",
+          "msgcount": "1"
+        },
+        {
+          "name": "avjl erasuergoavhier",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "messageActionRows": [],
+          "varname": "gwthing",
+          "vartype": "Text",
+          "savevartype": "temp",
+          "param": "0"
+        },
+        {
+          "name": "cviljta jogughhghfgt",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "2BFF00",
+          "title": "Der Giveaway Preis wurde festgelegt!",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Der Preis ist: **${tempVars.gwthing}**\n\n*Diese Nachricht wird in 3 Sekunden gelöscht!*",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "ayran",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "wvt ayran",
+          "category": "Control",
+          "type": "Wait",
+          "messageActionRows": [],
+          "waitduration": "3",
+          "unit": "seconds"
+        },
+        {
+          "name": "luldu",
+          "category": "Channel Action",
+          "type": "Delete All Messages",
+          "messageActionRows": [],
+          "channelname": "🥝┃tcommands",
+          "msgcount": "1"
+        }
+      ]
+    },
+    {
+      "name": "gwstart",
+      "perms": [
+        "rechte"
+      ],
+      "actions": [
+        {
+          "name": "luldu_2_2_1",
+          "category": "Channel Action",
+          "type": "Delete All Messages",
+          "messageActionRows": [],
+          "channelname": "🥝┃tcommands",
+          "msgcount": "1"
+        },
+        {
+          "name": "AYRAN!",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [],
+          "channelname": "🎁┃giveaways",
+          "color": "FF03BC",
+          "title": "GIVEAWAY TIME!",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Preis: ${tempVars.gwthing}\nAuflösung am: ${tempVars.gwdate}\nGiveaway von: <@${dbsVars.CommandAuthor.id}>\n\nZum Teilnehmen einfach mit dem Haken reagieren!",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "gw1",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "jvwg",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "55FF00",
+          "title": "Aktion erfolgreich.",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "*Diese Nachricht wird in 3 Sekunden gelöscht*",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "cjhrfa",
+          "category": "Reaction",
+          "type": "Add Reaction Listener",
+          "reactionActions": {
+            "✅": [
+              {
+                "name": "sadvas",
+                "category": "Message",
+                "type": "Send Embed",
+                "messageActionRows": [],
+                "channelname": "🎮┃log",
+                "color": "4133FF",
+                "title": "Neuer Giveaway Teilnehmer",
+                "url": "",
+                "authorname": "",
+                "authorimageurl": "",
+                "authorlink": "",
+                "description": "User Data:\n\nName: ${tempVars.usergw.displayName}\nName+Tag: ${tempVars.usergw.user.tag}\nID: ${tempVars.usergw.id}\nAvatar: ${tempVars.usergw.user.avatarURL}\nLast message: ${tempVars.usergw.lastMessage}",
+                "thumbnail": "",
+                "image": "",
+                "footer": "",
+                "timestamp": "false",
+                "savetovariable": "",
+                "savetovariabletype": "temp"
+              }
+            ]
+          },
+          "messageActionRows": [],
+          "message": "${tempVars.gw1.id}",
+          "duration": "0",
+          "reactionemoji": "emojigw",
+          "reactionuser": "usergw",
+          "react": "BOOL_TRUE@@"
+        },
+        {
+          "name": "wvt ayran_2",
+          "category": "Control",
+          "type": "Wait",
+          "messageActionRows": [],
+          "waitduration": "3",
+          "unit": "seconds"
+        },
+        {
+          "name": "luldu_2_1",
+          "category": "Channel Action",
+          "type": "Delete All Messages",
+          "messageActionRows": [],
+          "channelname": "🥝┃tcommands",
+          "msgcount": "1"
+        }
+      ]
+    },
+    {
+      "name": "gwdate",
+      "perms": [
+        "rechte"
+      ],
+      "actions": [
+        {
+          "name": "luldu_2_2_1_1",
+          "category": "Channel Action",
+          "type": "Delete All Messages",
+          "messageActionRows": [],
+          "channelname": "🥝┃tcommands",
+          "msgcount": "1"
+        },
+        {
+          "name": "avjl erasuergoavhier_1",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "messageActionRows": [],
+          "varname": "gwdate",
+          "vartype": "Text",
+          "savevartype": "temp",
+          "param": "0"
+        },
+        {
+          "name": "cviljta jogughhghfgt_1",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "2BFF00",
+          "title": "Das Ablaufdatum wurde festgelegt!",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Das Datum ist: **${tempVars.gwdate}**\n\nBitte nutze das Format 31/31/2022\n\n*Diese Nachricht wird in 3 Sekunden gelöscht!*\n",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "wvt ayran_1",
+          "category": "Control",
+          "type": "Wait",
+          "messageActionRows": [],
+          "waitduration": "3",
+          "unit": "seconds"
+        },
+        {
+          "name": "luldu_2",
+          "category": "Channel Action",
+          "type": "Delete All Messages",
+          "messageActionRows": [],
+          "channelname": "🥝┃tcommands",
+          "msgcount": "1"
+        }
+      ]
+    },
+    {
+      "name": "link",
+      "perms": [],
+      "actions": [
+        {
+          "name": "luldu_1_1_1_1",
+          "category": "Channel Action",
+          "type": "Delete All Messages",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "msgcount": "1"
+        },
+        {
+          "name": "peepovariable",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "messageActionRows": [],
+          "varname": "link2",
+          "vartype": "Text",
+          "savevartype": "temp",
+          "param": "0"
+        },
+        {
+          "name": "qckv frbhiucwfhqwiuef",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "2BFFFF",
+          "title": "Klicke hier",
+          "url": "${tempVars.link2}",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Du hast einen Link erhalten!\nLink von <@${dbsVars.CommandAuthor.id}>",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "del",
+      "perms": [
+        "team"
+      ],
+      "actions": [
+        {
+          "name": "qu3i4tvq",
+          "category": "Channel Action",
+          "type": "Delete All Messages",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "msgcount": "100"
+        },
+        {
+          "name": "wvetzw",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "FF0000",
+          "title": "Aktion ausgeführt!",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Wichtig! Es wurden nur 100 Nachrichten gelöscht, da nicht mehr mit diesem Bot möglich ist.\n\n*Diese Nachricht wird in 3 Sekunden gelöscht*",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "wvt ayran_3",
+          "category": "Control",
+          "type": "Wait",
+          "messageActionRows": [],
+          "waitduration": "3",
+          "unit": "seconds"
+        },
+        {
+          "name": "luldu_2_3",
+          "category": "Channel Action",
+          "type": "Delete All Messages",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "msgcount": "1"
+        }
+      ]
+    },
+    {
+      "name": "gwdel",
+      "actions": []
+    },
+    {
+      "name": "bw",
+      "actions": [
+        {
+          "name": "luldu_1_1_1_1_1",
+          "category": "Channel Action",
+          "type": "Delete All Messages",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "msgcount": "1"
+        },
+        {
+          "name": "cqvuw 4hotq",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "messageActionRows": [],
+          "varname": "bw",
+          "vartype": "Text",
+          "savevartype": "temp",
+          "param": "0"
+        },
+        {
+          "name": "w9n8t4tvw",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [
+            {
+              "rowtype": "button",
+              "buttons": [
+                {
+                  "label": "Okay",
+                  "customid": "jabw",
+                  "style": "PRIMARY",
+                  "emoji": "",
+                  "URL": ""
+                }
+              ]
+            }
+          ],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "FF0000",
+          "title": "Vielen Dank, wir werden uns melden",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "bw1",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "97n4tv",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [],
+          "channelname": "❔┃user-bewerbungen",
+          "color": "92FF14",
+          "title": " Neue Bewerbung von ${dbsVars.CommandAuthor.displayName}",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Bewerbung:\n${tempVars.bw}",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "wvt ayran_3_1",
+          "category": "Control",
+          "type": "Wait",
+          "messageActionRows": [],
+          "waitduration": "30",
+          "unit": "seconds"
+        },
+        {
+          "name": "wvt ayran_3_1_1",
+          "category": "Control",
+          "type": "Wait",
+          "messageActionRows": [],
+          "waitduration": "10",
+          "unit": "seconds"
+        },
+        {
+          "name": "2n8945bz",
+          "category": "Message",
+          "type": "Delete Message",
+          "messageActionRows": [],
+          "varname": "${tempVars.bw1.id}",
+          "channelname": "${dbsVars.CommandChannel.id}"
+        },
+        {
+          "name": "luldu_2_3_1",
+          "category": "Channel Action",
+          "type": "Delete All Messages",
+          "messageActionRows": [],
+          "channelname": "📱┃bewerbung",
+          "msgcount": "2"
+        }
+      ]
+    },
+    {
+      "name": "storno",
+      "actions": [
+        {
+          "name": "cn7w5voht4qup4thqcpnio4tvnjapehu598t",
+          "category": "Variable",
+          "type": "Get Mentioned User",
+          "messageActionRows": [],
+          "varname": "storno",
+          "vartype": "User",
+          "savevartype": "temp"
+        },
+        {
+          "name": "q3cvtuq9n",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "6BFF21",
+          "title": "",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Die Bewerbung von ${tempVars.storno.displayName} wurde storniert.",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "q3cvtuq9n_1",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [],
+          "channelname": "❔┃user-bewerbungen",
+          "color": "FF0000",
+          "title": "STORNIEREN!",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "HERR FINN BITTE BITTE STORNIEREN SIE DIE BEWERBUNG VON EINEM NUTZER NAMENS\n\n<@${tempVars.storno.id}>\n\nDANKE GNÄDIGE FRAU",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "luldu_1_1_1_1_1_1_1",
+          "category": "Channel Action",
+          "type": "Delete All Messages",
+          "messageActionRows": [],
+          "channelname": "📱┃bewerbung",
+          "msgcount": "2"
+        }
+      ]
+    },
+    {
+      "name": "strafe",
+      "perms": [
+        "rechte",
+        "team"
+      ],
+      "actions": [
+        {
+          "name": "wn7l5ituvaerbhaukerg",
+          "category": "Variable",
+          "type": "Get Mentioned User",
+          "messageActionRows": [],
+          "varname": "strafeuser",
+          "vartype": "User",
+          "savevartype": "temp"
+        },
+        {
+          "name": "luldu_1_1_1_1_1_1",
+          "category": "Channel Action",
+          "type": "Delete All Messages",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "msgcount": "1"
+        },
+        {
+          "name": "ousdrthiukandfbguhlarw.uaerg",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "FF0000",
+          "title": "Strafe auswählen",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "\n.kick\n.mute\n\n(alles gilt für den User <@${tempVars.strafeuser.id}>)",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "xcwTOUNZ",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "kick",
+      "perms": [
+        "team",
+        "rechte"
+      ],
+      "actions": [
+        {
+          "name": "w98zwreuos",
+          "category": "User Action",
+          "type": "Kick User",
+          "messageActionRows": [],
+          "user": "${tempVars.strafeuser.id}",
+          "reason": "Du wurdest von einem Teammitglied gekickt."
+        },
+        {
+          "name": "luldu_1_1_1_1_1_1_2",
+          "category": "Channel Action",
+          "type": "Delete All Messages",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "msgcount": "1"
+        },
+        {
+          "name": "ousdrthiukandfbguhlarw.uaerg_1",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "00FF00",
+          "title": "Der User wurde gekickt.",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "mute",
+      "perms": [
+        "rechte",
+        "team"
+      ],
+      "actions": []
+    },
+    {
+      "name": "warn",
+      "perms": [
+        "rechte",
+        "team"
+      ],
+      "actions": [
+        {
+          "name": "luldu_1_1_1_1_1_1_2_1",
+          "category": "Channel Action",
+          "type": "Delete All Messages",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "msgcount": "1"
+        },
+        {
+          "name": "zn3tuavl",
+          "category": "Variable",
+          "type": "Get Mentioned User",
+          "messageActionRows": [],
+          "varname": "warnuser",
+          "vartype": "User",
+          "savevartype": "temp"
+        },
+        {
+          "name": "arvbudts",
+          "category": "User Data",
+          "type": "Edit User Data",
+          "messageActionRows": [],
+          "user": "${tempVars.warnuser.id}",
+          "field": "warns",
+          "oper": "+",
+          "value": "1"
+        },
+        {
+          "name": "SZBEVIVZLET_1",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "FF0000",
+          "title": "Der Nutzer wurde gewarnt.",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "sb8eu5z",
+          "category": "Control",
+          "type": "Wait",
+          "messageActionRows": [],
+          "waitduration": "3",
+          "unit": "seconds"
+        },
+        {
+          "name": "luldu_1_1_1_1_1_1_2_1_2",
+          "category": "Channel Action",
+          "type": "Delete All Messages",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "msgcount": "1"
+        }
+      ]
+    },
+    {
+      "name": "checkwarn",
+      "actions": [
+        {
+          "name": "luldu_1_1_1_1_1_1_2_1_1",
+          "category": "Channel Action",
+          "type": "Delete All Messages",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "msgcount": "1"
+        },
+        {
+          "name": "zn3tuavl_1",
+          "category": "Variable",
+          "type": "Get Mentioned User",
+          "messageActionRows": [],
+          "varname": "checkuser",
+          "vartype": "User",
+          "savevartype": "temp"
+        },
+        {
+          "name": "avelnrtabhelrt",
+          "category": "User Data",
+          "type": "Get User Data",
+          "messageActionRows": [],
+          "user": "${tempVars.checkuser.id}",
+          "field": "warns",
+          "varname": "userwarns_now",
+          "savevartype": "temp",
+          "vartype": "User"
+        },
+        {
+          "name": "SZBEVIVZLET",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "CEFF2E",
+          "title": "Warn-Check",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Der Nutzer <@${tempVars.checkuser.id}> hat ``${tempVars.userwarns_now}`` Warns",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "sb8eu5z_1",
+          "category": "Control",
+          "type": "Wait",
+          "messageActionRows": [],
+          "waitduration": "5",
+          "unit": "seconds"
+        },
+        {
+          "name": "luldu_1_1_1_1_1_1_2_1_2_1",
+          "category": "Channel Action",
+          "type": "Delete All Messages",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "msgcount": "1"
+        }
+      ]
+    },
+    {
+      "name": "delwarn",
+      "perms": [
+        "rechte",
+        "team"
+      ],
+      "actions": [
+        {
+          "name": "luldu_1_1_1_1_1_1_2_1_3",
+          "category": "Channel Action",
+          "type": "Delete All Messages",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "msgcount": "1"
+        },
+        {
+          "name": "zn3tuavl_1_1",
+          "category": "Variable",
+          "type": "Get Mentioned User",
+          "messageActionRows": [],
+          "varname": "checkuser2",
+          "vartype": "User",
+          "savevartype": "temp"
+        },
+        {
+          "name": "qc97v3n4z6bq",
+          "category": "User Data",
+          "type": "Set User Data",
+          "messageActionRows": [],
+          "user": "${tempVars.checkuser2.id}",
+          "field": "warns",
+          "fieldvalue": "0"
+        },
+        {
+          "name": "SZBEVIVZLET_1_1",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "00FF00",
+          "title": "Die Warns wurden zurückgesetzt.",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "sb8eu5z_1_1",
+          "category": "Control",
+          "type": "Wait",
+          "messageActionRows": [],
+          "waitduration": "3",
+          "unit": "seconds"
+        },
+        {
+          "name": "luldu_1_1_1_1_1_1_2_1_2_1_1",
+          "category": "Channel Action",
+          "type": "Delete All Messages",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "msgcount": "1"
+        }
+      ]
+    },
+    {
+      "name": "ticketpanel",
+      "perms": [
+        "rechte"
+      ],
+      "actions": [
+        {
+          "name": "qbz5np9eoqort",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [
+            {
+              "rowtype": "button",
+              "buttons": [
+                {
+                  "label": "Allgemein",
+                  "customid": "tallgemein",
+                  "style": "PRIMARY",
+                  "emoji": "",
+                  "URL": ""
+                },
+                {
+                  "label": "Technisches Problem/Bug",
+                  "customid": "tfehler",
+                  "style": "PRIMARY",
+                  "emoji": "",
+                  "URL": ""
+                },
+                {
+                  "label": "Minecraft",
+                  "customid": "tminecraft",
+                  "style": "PRIMARY",
+                  "emoji": "",
+                  "URL": ""
+                },
+                {
+                  "label": "Discord Server",
+                  "customid": "tdiscord",
+                  "style": "PRIMARY",
+                  "emoji": "",
+                  "URL": ""
+                }
+              ]
+            }
+          ],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "FF0000",
+          "title": "Ticket erstellen",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Wenn du ein Ticket erstellen möschtest, wähle bitte dein Problem aus!",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "bwdc",
+      "actions": [
+        {
+          "name": "luldu_1_1_1_1_1",
+          "category": "Channel Action",
+          "type": "Delete All Messages",
+          "messageActionRows": [],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "msgcount": "1"
+        },
+        {
+          "name": "cqvuw 4hotq",
+          "category": "Variable",
+          "type": "Store Value in Variable",
+          "messageActionRows": [],
+          "varname": "bw",
+          "vartype": "Text",
+          "savevartype": "temp",
+          "param": "0"
+        },
+        {
+          "name": "w9n8t4tvw",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [
+            {
+              "rowtype": "button",
+              "buttons": [
+                {
+                  "label": "Okay",
+                  "customid": "jabw",
+                  "style": "PRIMARY",
+                  "emoji": "",
+                  "URL": ""
+                }
+              ]
+            }
+          ],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "FF0000",
+          "title": "Vielen Dank, wir werden uns melden",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "bw1",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "97n4tv",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [],
+          "channelname": "❔┃user-bewerbungen",
+          "color": "92FF14",
+          "title": " Neue Bewerbung von ${dbsVars.CommandAuthor.displayName}",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Bewerbung:\n${tempVars.bw}",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        },
+        {
+          "name": "wvt ayran_3_1",
+          "category": "Control",
+          "type": "Wait",
+          "messageActionRows": [],
+          "waitduration": "30",
+          "unit": "seconds"
+        },
+        {
+          "name": "wvt ayran_3_1_1",
+          "category": "Control",
+          "type": "Wait",
+          "messageActionRows": [],
+          "waitduration": "10",
+          "unit": "seconds"
+        },
+        {
+          "name": "2n8945bz",
+          "category": "Message",
+          "type": "Delete Message",
+          "messageActionRows": [],
+          "varname": "${tempVars.bw1.id}",
+          "channelname": "${dbsVars.CommandChannel.id}"
+        },
+        {
+          "name": "luldu_2_3_1",
+          "category": "Channel Action",
+          "type": "Delete All Messages",
+          "messageActionRows": [],
+          "channelname": "📱┃bewerbung",
+          "msgcount": "2"
+        }
+      ]
+    },
+    {
+      "name": "reaction",
+      "perms": [
+        "rechte"
+      ],
+      "actions": [
+        {
+          "name": "ve hakhakhaer",
+          "category": "Message",
+          "type": "Send Embed",
+          "messageActionRows": [
+            {
+              "rowtype": "button",
+              "buttons": [
+                {
+                  "label": "Akzeptieren",
+                  "customid": "RULES1",
+                  "style": "SUCCESS",
+                  "emoji": "✅",
+                  "URL": ""
+                },
+                {
+                  "label": "Nicht akzeptieren",
+                  "customid": "RULES2",
+                  "style": "DANGER",
+                  "emoji": "❌",
+                  "URL": ""
+                }
+              ]
+            }
+          ],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "FF0000",
+          "title": "Regeln",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Um unseren schönen Discord Server nutzen zu können musst du unseren Regeln zuerst akzeptieren! Les sie dir lieber vorher mal durch ;)",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    }
+  ]
+}
